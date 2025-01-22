@@ -19,8 +19,8 @@
         class="flex flex-col flex-1"
         :ui="{ body: { base: 'flex-1' }, ring: '', divide: 'divide-y divide-gray-100 dark:divide-gray-800' }"
       >
-        <!-- <template #header>
-          <UButton
+        <template #header>
+          <!-- <UButton
             color="gray"
             variant="ghost"
             size="sm"
@@ -29,10 +29,11 @@
             square
             padded
             @click="isOpen = false"
-          />
+          /> -->
+          <UButton color="gray" variant="ghost" icon="i-heroicons-x-mark-20-solid" class="-my-1" @click="isOpen = false" />
 
           <Placeholder class="h-8" />
-        </template> -->
+        </template>
 
           <Placeholder class="h-full" />
           <UDivider
@@ -45,7 +46,7 @@
             label="Lessons"
             :ui="{ label: 'text-primary-500 dark:text-primary-400' }"
           />
-          <NuxtLink to="/Lessons/let-them-therory">"Let Them Theroy"</NuxtLink><br />
+          <NuxtLink to="/Lessons/let-them-theory">"Let Them Theory"</NuxtLink><br />
           <NuxtLink to="/Lessons/six-morning-tasks">6 Morning Tasks</NuxtLink><br />
           
         <template #footer>
