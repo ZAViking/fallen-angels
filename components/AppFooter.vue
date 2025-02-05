@@ -1,26 +1,25 @@
 <template>
     <footer class="footer">
-        <div class="footer-content">
+        <!-- <div class="footer-content">-->
             <!-- Left Section: Social Media Links -->
-        <div class="footer-social">
+        <!-- <div class="footer-social">
             <h2 class="footer-heading">Stay Connected</h2>
             <div class="social-icons">
             <li><a href="#" aria-label="Facebook">Facebook</a></li>
             <li><a href="#" aria-label="Twitter">Twitter</a></li>
             <li><a href="#" aria-label="Instagram">Instagrazm</a></li>
           </div>
-        </div>
+        </div> -->
   
         <!-- Right Section: Additional Information -->
-        <div class="footer-info">
+        <!-- <div class="footer-info">
           <ul class="footer-links">
             <li><a href="#privacy">Privacy Policy</a></li>
             <li><a href="#terms">Terms of Service</a></li>
             <li><a href="#contact">Contact Us</a></li>
           </ul>
-        </div>
-        <br />
-    </div>
+        </div> -->
+    <!-- </div> -->
     <p>© 2025 Your Website Name. All rights reserved.</p>
     </footer>
   </template>
@@ -67,6 +66,7 @@
   .footer-info {
     flex: 1;
     margin: 10px;
+    align-items: center;
   }
   
   .footer-heading {
@@ -81,6 +81,7 @@
     list-style: none;
     padding: 0;
     margin: 20px 0;
+    /* text-align: left; */
   }
   
   .footer-links li {

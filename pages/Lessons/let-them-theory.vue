@@ -66,31 +66,25 @@
         line-height: 1.6;
         margin: 30px;
         padding: 20px;
-        background-color: #f4f4f9;
         border-radius: 8px;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     }
 
-    .Let-Them-Tasks h1, .Let-Them-Tasks h2 {
-        color: #2c3e50;
+    .Let-Them-Tasks h1 {
         font-weight: bold;
         margin-top: 30px;
-        text-decoration: underline;
-    }
-
-    .Let-Them-Tasks h1 {
         font-size: 2rem;
         margin-bottom: 15px;
     }
-
+    
     .Let-Them-Tasks h2 {
         font-size: 1.5rem;
         margin-bottom: 10px;
+        text-decoration: underline;
     }
 
     .Let-Them-Tasks p {
         font-size: 1rem;
-        color: #34495e;
         margin-bottom: 15px;
     }
 
@@ -101,7 +95,6 @@
 
     .Let-Them-Tasks li {
         font-size: 1rem;
-        color: #34495e;
         margin-bottom: 10px;
     }
 

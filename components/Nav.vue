@@ -48,6 +48,7 @@
           />
           <NuxtLink to="/Lessons/let-them-theory">"Let Them Theory"</NuxtLink><br />
           <NuxtLink to="/Lessons/six-morning-tasks">6 Morning Tasks</NuxtLink><br />
+          <NuxtLink to="/Lessons/quotes">Quotes</NuxtLink><br />
           
         <template #footer>
           <Placeholder class="h-8" />

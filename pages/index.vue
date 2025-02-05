@@ -6,7 +6,7 @@
         <h1 class="section-heading">Finding Strength in Every Fall</h1>
         <p>Welcome to Fallen Angels, where we embrace life’s challenges and rise stronger together.</p>
         <div class="hero-buttons">
-          <button @click="navigateTo('share-story')">Share Your Story</button>
+          <button @click="navigateTo('share-story')">Share Your Story</button><br />
           <button @click="navigateTo('get-inspired')">Get Inspired</button>
         </div>
       </div>
@@ -86,13 +86,12 @@ export default {
     line-height: 1.6;
     margin: 30px;
     padding: 20px;
-    background-color: #f4f4f9;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
 
   .Let-Them-Tasks h1, .Let-Them-Tasks h2 {
-    color: #2c3e50;
+    color: #ffffff;
     font-weight: bold;
     margin-top: 30px;
     text-decoration: underline;
@@ -110,7 +109,7 @@ export default {
 
   .Let-Them-Tasks p {
     font-size: 1rem;
-    color: #34495e;
+    color: #ffffff;
     margin-bottom: 15px;
   }
 
@@ -121,7 +120,7 @@ export default {
 
   .Let-Them-Tasks li {
     font-size: 1rem;
-    color: #34495e;
+    color: #ffffff;
     margin-bottom: 10px;
   }
 
@@ -131,20 +130,20 @@ export default {
 
   .Let-Them-Tasks .section-heading {
     font-size: 2rem;
-    color: #2980b9;
+    color: #ffffff;
     text-align: center;
     margin-bottom: 20px;
   }
 
   .Let-Them-Tasks .sub-heading {
     font-size: 1.2rem;
-    color: #16a085;
+    color: #ffffff;
     margin-top: 20px;
     text-align: left;
   }
 
   .Let-Them-Tasks .highlight {
-    color: #e74c3c;
+    color: #ffffff;
     font-weight: bold;
   }
 
