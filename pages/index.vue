@@ -1,155 +1,143 @@
 <template>
-  <div class="Let-Them-Tasks">
-    <!-- Hero Section -->
-    <section class="hero">
-      <div class="hero-content">
-        <h1 class="section-heading">Finding Strength in Every Fall</h1>
-        <p>Welcome to Fallen Angels, where we embrace life’s challenges and rise stronger together.</p>
-        <div class="hero-buttons">
-          <button @click="navigateTo('share-story')">Share Your Story</button><br />
-          <button @click="navigateTo('get-inspired')">Get Inspired</button>
+    <div class="popout-container">
+      <div class="popout-content">
+        <Nav />
+
+        <section class="hero">
+          <div class="hero-content">
+            <h1 class="section-heading">Finding Strength in Every Fall</h1>
+            <p>Welcome to Fallen Angels, where we embrace life’s challenges and rise stronger together.</p>
+            <!-- <div class="hero-buttons">
+              <button @click="navigateTo('share-story')">Share Your Story</button>
+              <button @click="navigateTo('get-inspired')">Get Inspired</button>
+            </div> -->
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- Introduction Section -->
-    <section class="introduction">
-      <h2 class="sub-heading">Who We Are</h2>
-      <p>
-        Fallen Angels is a community built to inspire, support, and guide those facing life’s challenges. We believe in the power of resilience and the human spirit. Learn more about us and join our mission to make a difference.
-      </p>
-      <button @click="navigateTo('about-us')">Learn More</button>
-    </section>
+      <section class="introduction card">
+        <h2>Who We Are</h2>
+        <p>
+          Fallen Angels is a community built to inspire, support, and guide those facing life’s challenges. Learn more about us and join our mission to make a difference.
+        </p>
+        <button @click="navigateTo('about-us')">Learn More</button>
+      </section>
 
-    <!-- Featured Content Section -->
-    <section class="featured-content">
-      <h2 class="sub-heading">Featured Stories</h2>
-      <div class="stories-carousel">
-        <div v-for="story in featuredStories" :key="story.id" class="story">
-          <h3 class="highlight">{{ story.title }}</h3>
-          <p>{{ story.excerpt }}</p>
-          <button @click="readStory(story.id)">Read More</button>
+      <section class="featured-content card">
+        <h2>Featured Stories</h2>
+        <div class="stories">
+          <div v-for="story in featuredStories" :key="story.id" class="story-item">
+            <h3>{{ story.title }}</h3>
+            <p>{{ story.excerpt }}</p>
+            <!-- Use NuxtLink to navigate to the specific story page -->
+            <NuxtLink :to="`/Lessons/${story.slug}`" class="read-more-button">Read More</NuxtLink>
+          </div>
         </div>
-      </div>
     </section>
 
-    <!-- Community Highlights Section -->
-    <section class="community-highlights">
-      <h2 class="sub-heading">Join the Conversation</h2>
-      <p>
-        Be part of a supportive community where you can connect, share, and grow together. Check out our forums and upcoming events.
-      </p>
-      <button @click="navigateTo('community')">Explore Community</button>
-      <button @click="navigateTo('events')">View Events</button>
-    </section>
+      <section class="community-highlights card">
+        <h2>Join the Conversation</h2>
+        <p>Be part of a supportive community where you can connect, share, and grow together.</p>
+        <!-- <div class="button-group">
+          <button @click="navigateTo('community')">Explore Community</button>
+          <button @click="navigateTo('events')">View Events</button>
+        </div> -->
+      </section>
 
-    <!-- Testimonials Section -->
-    <section class="testimonials">
-      <h2 class="sub-heading">What People Are Saying</h2>
-      <div v-for="testimonial in testimonials" :key="testimonial.id" class="testimonial">
-        <blockquote class="note">{{ testimonial.quote }}</blockquote>
-        <p>- {{ testimonial.author }}</p>
       </div>
-    </section>
-  </div>
+    </div>
 </template>
 
 <script>
-export default {
-  name: "HomePage",
-  data() {
-    return {
-      featuredStories: [
-        { id: 1, title: "Overcoming Adversity", excerpt: "How I turned my struggles into success..." },
-        { id: 2, title: "A Journey to Self-Love", excerpt: "Discovering the beauty of being me..." },
-      ],
-      testimonials: [
-        { id: 1, quote: "Fallen Angels gave me hope when I felt lost.", author: "Alex T." },
-        { id: 2, quote: "I found a community that truly understands.", author: "Jamie L." },
-      ],
-    };
-  },
-  methods: {
-    navigateTo(route) {
-      this.$router.push({ name: route });
+  export default {
+    name: "HomePage",
+    data() {
+      return {
+        featuredStories: [
+          { id: 1, title: "Quotes", slug: "quotes", excerpt: "Some inspirational quotes..." },
+          { id: 2, title: "The Let Them Theory", slug: "let-them-theory", excerpt: "Discovering the beauty of being me..." },
+        ],
+      };
     },
-    readStory(id) {
-      this.$router.push({ name: "story", params: { id } });
-    },
-  },
-};
+  };
 </script>
 
 <style scoped>
-  .Let-Them-Tasks {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 30px;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
+.index-page {
+  font-family: Arial, sans-serif;
+  padding: 30px;
+  background-color: white; /* White background for the page */
+  color: #333; /* Dark text color */
+}
 
-  .Let-Them-Tasks h1, .Let-Them-Tasks h2 {
-    color: #ffffff;
-    font-weight: bold;
-    margin-top: 30px;
-    text-decoration: underline;
-  }
+.hero {
+  text-align: center;
+  padding: 50px;
+  background: rgba(255, 255, 255, 0.9); /* Light hero background */
+  border-radius: 10px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
 
-  .Let-Them-Tasks h1 {
-    font-size: 2rem;
-    margin-bottom: 15px;
-  }
+.hero-buttons button {
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  background: #ff6600; /* Orange button color */
+  color: white;
+  cursor: pointer;
+  transition: transform 0.3s;
+  border-radius: 5px;
+}
 
-  .Let-Them-Tasks h2 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-  }
+.hero-buttons button:hover {
+  transform: scale(1.05);
+}
 
-  .Let-Them-Tasks p {
-    font-size: 1rem;
-    color: #ffffff;
-    margin-bottom: 15px;
-  }
+.card {
+  background: rgba(255, 255, 255, 0.95); /* Slightly opaque background */
+  border-radius: 12px;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
 
-  .Let-Them-Tasks ul {
-    margin: 10px 0;
-    padding-left: 20px;
-  }
+.story-item {
+  margin-top: 15px;
+  padding: 15px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+}
 
-  .Let-Them-Tasks li {
-    font-size: 1rem;
-    color: #ffffff;
-    margin-bottom: 10px;
-  }
+.read-more-button {
+  background-color: #ff6600; /* Same orange button color as in the hero section */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: transform 0.3s;
+  border-radius: 5px;
+}
 
-  .Let-Them-Tasks br {
-    margin-bottom: 10px;
-  }
+.read-more-button:hover {
+  transform: scale(1.05);
+}
 
-  .Let-Them-Tasks .section-heading {
-    font-size: 2rem;
-    color: #ffffff;
-    text-align: center;
-    margin-bottom: 20px;
-  }
+.button-group {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
 
-  .Let-Them-Tasks .sub-heading {
-    font-size: 1.2rem;
-    color: #ffffff;
-    margin-top: 20px;
-    text-align: left;
-  }
+.button-group button {
+  padding: 12px 20px;
+  background-color: #ff6600; /* Orange button for consistency */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
 
-  .Let-Them-Tasks .highlight {
-    color: #ffffff;
-    font-weight: bold;
-  }
-
-  .Let-Them-Tasks .note {
-    font-style: italic;
-    color: #7f8c8d;
-  }
+.button-group button:hover {
+  background-color: #cc5200; /* Darker orange on hover */
+}
 </style>
-

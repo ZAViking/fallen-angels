@@ -21,7 +21,6 @@
         </div> -->
     <!-- </div> -->
     <p>© 2025. All rights reserved.</p>
-    <p>Inspired by QueenBee</p>
     </footer>
   </template>
   

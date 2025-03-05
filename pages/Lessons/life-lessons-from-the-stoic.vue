@@ -1,6 +1,7 @@
 <template>
-    <div class="outer-container">
-        <div class="container">
+    <div class="popout-container">
+        <div class="popout-content">
+            <Nav />
             <h1>So here are 10 important lessons that we can learn from Seneca.</h1>
             <ul>
                 <li>Exercise your mind daily</li>

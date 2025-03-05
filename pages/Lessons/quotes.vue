@@ -1,6 +1,7 @@
 <template>
-    <div class="outer-container">
-        <div class="container">
+    <div class="popout-container">
+        <div class="popout-content">
+            <Nav />
             <h1>Quotes:</h1>
             <div class="quotes">
                 <ul>

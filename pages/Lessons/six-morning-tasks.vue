@@ -1,6 +1,7 @@
 <template>
-    <div class="outer-container">
-        <div class="container">
+    <div class="popout-container">
+        <div class="popout-content">
+            <Nav />
             <ul>
                 <li>1st - Alarm rings, get up</li>
                 <li>2nd - Make your bed</li>

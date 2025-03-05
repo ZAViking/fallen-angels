@@ -26,6 +26,124 @@
   }
 
   /* Global Settings */
+  /* Wrapper for the pop-out effect */
+  .popout-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: var(--page-background);
+    padding: 50px 20px;
+  }
+
+  /* The "pop-out" content area */
+  .popout-content {
+    background: #ffffff;
+    padding: 40px;
+    max-width: 900px;
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 
+        0 8px 16px rgba(0, 0, 0, 0.2), 
+        0 0 0 4px rgba(255, 255, 255, 1), 
+        0 12px 30px rgba(0, 0, 0, 0.3); /* Adds a multi-layered shadow for depth */
+    /* transform: perspective(1000px) rotateX(2deg) rotateY(-2deg); */
+    transition: transform 0.3s ease-in-out;
+  }
+
+  /* Style the text inside the divider */
+  .udivider-label {
+    color: #ff6600; /* Change text color */
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+
+  /* Style the divider lines */
+  .udivider-line {
+    border-color: rgba(0, 0, 0, 0.3); /* Change line color */
+  }
+
+  /* Hover Effect */
+  .udivider-label:hover {
+    color: #d43f00;
+  }
+
+  .udivider-line:hover {
+    border-color: #d43f00;
+  }
+
+   /* Styling for headings and text */
+  .popout-content h1,
+  .popout-content h2 {
+    text-align: center;
+    color: var(--page-heading);
+  }
+
+  .popout-content p {
+    color: var(--page-text-primary);
+    font-size: 1.1rem;
+    line-height: 1.8;
+  }
+
+  /* Styled List */
+  .popout-content ul {
+    list-style: none; /* Remove default bullets */
+    padding: 0;
+    margin: 20px 0;
+  }
+
+  /* List Item Styling */
+  .popout-content li {
+    font-size: 1.1rem;
+    color: var(--page-text-primary);
+    padding: 10px;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  }
+
+  /* Hover Effect */
+  .popout-content li:hover {
+    transform: translateX(5px);
+    box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.2);
+  }
+
+  /* Custom Bullet Icons */
+  .popout-content li::before {
+    content: "●"; /* You can replace with another symbol */
+    font-size: 1.2rem;
+    color: #ff6600; /* Change color to match your theme */
+    margin-right: 12px;
+    transition: transform 0.2s ease-in-out;
+  }
+
+  /* Rotate bullet on hover */
+  .popout-content li:hover::before {
+    transform: rotate(360deg);
+  }
+
+  /* Optional: Add an entrance animation */
+  @keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+  }
+
+.popout-content li {
+  animation: fadeInUp 0.5s ease-in-out both;
+}
+/* ------------------------------------------------------- */
+
   .outer-container {
     display: flex; /* Enables flexbox */
     justify-content: center; /* Centers content horizontally */
