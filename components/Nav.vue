@@ -12,7 +12,7 @@
 
 <template>
   <div class="button-container">
-    <UButton label="Your Guide" @click="isOpen = true" />
+    <UButton color="gray" label="Your Guide" @click="isOpen = true" />
 
     <USlideover v-model="isOpen">
       <UCard
@@ -20,17 +20,13 @@
         :ui="{ body: { base: 'flex-1' }, ring: '', divide: 'divide-y divide-gray-100 dark:divide-gray-800' }"
       >
         <template #header>
-          <!-- <UButton
-            color="gray"
-            variant="ghost"
-            size="sm"
-            icon="i-heroicons-x-mark-20-solid"
-            class="flex sm:hidden absolute end-5 top-5 z-10"
-            square
-            padded
-            @click="isOpen = false"
-          /> -->
-          <UButton color="gray" variant="ghost" icon="i-heroicons-x-mark-20-solid" class="-my-1" @click="isOpen = false" />
+          <UButton 
+            color="gray" 
+            variant="ghost" 
+            icon="i-heroicons-x-mark-20-solid" 
+            class="-my-1" 
+            @click="isOpen = false" 
+          />
 
           <Placeholder class="h-8" />
         </template>
@@ -38,13 +34,13 @@
           <Placeholder class="h-full" />
           <UDivider
             label="Navigation"
-            :ui="{ label: 'text-primary-500 dark:text-primary-400' }"
+            :ui="{ label: 'text-gray-500 dark:text-gray-400' }"
           />
           <NuxtLink to="/">Home</NuxtLink><br />
           <NuxtLink to="/About">About</NuxtLink><br />
           <UDivider
             label="Lessons"
-            :ui="{ label: 'text-primary-500 dark:text-primary-400' }"
+            :ui="{ label: 'text-gray-500 dark:text-gray-400' }"
           />
           <NuxtLink to="/Lessons/let-them-theory">"Let Them Theory"</NuxtLink><br />
           <NuxtLink to="/Lessons/six-morning-tasks">6 Morning Tasks</NuxtLink><br />

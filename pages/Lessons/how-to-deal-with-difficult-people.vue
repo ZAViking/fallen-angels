@@ -1,5 +1,5 @@
 <template>
-    <div class="global-details">
+    <div>
         <h1>"How to handle difficult people."</h1>
         <ul>
             <li>The words you say next has a ripple effect. You have the power to effect people you will never meet.</li>
@@ -160,69 +160,4 @@
 </template>
 
 <style scoped>
-    .global-details {
-        font-family: Arial, sans-serif;
-        line-height: 1.6;
-        margin: 30px;
-        padding: 20px;
-        border-radius: 8px;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    }
-
-    .global-details h1 {
-        font-weight: bold;
-        margin-top: 30px;
-        font-size: 2rem;
-        margin-bottom: 15px;
-    }
-    
-    .global-details h2 {
-        font-size: 1.5rem;
-        margin-bottom: 10px;
-        text-decoration: underline;
-    }
-
-    .global-details p {
-        font-size: 1rem;
-        margin-bottom: 15px;
-    }
-
-    .global-details ul {
-        margin: 10px 0;
-        padding-left: 20px;
-    }
-
-    .global-details li {
-        font-size: 1rem;
-        margin-bottom: 10px;
-    }
-
-    .global-details br {
-        margin-bottom: 10px;
-    }
-
-    .global-details .section-heading {
-        font-size: 2rem;
-        color: #2980b9;
-        text-align: center;
-        margin-bottom: 20px;
-    }
-
-    .global-details .sub-heading {
-        font-size: 1.2rem;
-        color: #16a085;
-        margin-top: 20px;
-        text-align: left;
-    }
-
-    .global-details .highlight {
-        color: #e74c3c;
-        font-weight: bold;
-    }
-
-    .global-details .note {
-        font-style: italic;
-        color: #7f8c8d;
-    }
-
 </style>
