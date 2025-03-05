@@ -78,17 +78,18 @@
         <li>Give people grace, give them the benefit of the doubt.</li>
         <li>"I thought you were made at me" is not giving them the benefit of the doubt.</li>
 
-        <h2>How to handle people: Disrespecting You </h2>
-            <ul>
-                <li>Make them repeat the comment.</li>
+        <UDivider label="How to handle people: Disrespecting You" />
+        <!-- <h2>How to handle people: Disrespecting You </h2> -->
+        <ul>
+            <li>Make them repeat the comment.</li>
                 <ul>
-                <li>They looking to get a reaction out of you. So you take the fun out of it.</li>
-                <li>"I need you to say that again"</li>
-                <li>"I need you to repeat that"</li>
-                <li>"Did you say that to hurt me?"</li>
-                <li>Repeat what they said, but slowly.</li>
-                <li>"Did you say that to offend me?"</li>
-            </ul>
+                    <li>They looking to get a reaction out of you. So you take the fun out of it.</li>
+                    <li>"I need you to say that again"</li>
+                    <li>"I need you to repeat that"</li>
+                    <li>"Did you say that to hurt me?"</li>
+                    <li>Repeat what they said, but slowly.</li>
+                    <li>"Did you say that to offend me?"</li>
+                </ul>
             <li>You could also wait 10 seconds.</li>
             <li>"That is below my standard of response / respect"</li>
             <li>If have someone you care about that is being disrespectful to other people, you need to put in a boundary. For example telling them you cant go with them if they continue the behaviour.</li>
