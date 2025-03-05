@@ -20,7 +20,8 @@
           </ul>
         </div> -->
     <!-- </div> -->
-    <p>© 2025 Your Website Name. All rights reserved.</p>
+    <p>© 2025. All rights reserved.</p>
+    <p>Inspired by QueenBee</p>
     </footer>
   </template>
   
