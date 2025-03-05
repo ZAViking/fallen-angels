@@ -3,6 +3,11 @@
     <div class="popout-content">
     <Nav />
       <section class="about">
+        <p>
+          Inspired by: <i>QueenBee</i>
+        </p>
+      </section>
+      <section class="about">
         <h1>About Us</h1>
         <p>
           Welcome to Fallen Angels, a sanctuary for anyone seeking inspiration, guidance, and support. Life can be a challenging journey, filled with twists, turns, and unexpected hurdles. Here, we aim to be your companion on this path, offering a space where you can find hope, motivation, and practical advice to navigate life's difficulties.
@@ -40,12 +45,6 @@
         </p>
 
         <p>Thank you for being a part of our journey. Let's move forward, together.</p>
-      </section>
-
-      <section class="about">
-        <p>
-          Inspired by: <i>QueenBee</i>
-        </p>
       </section>
     </div>
   </div>
