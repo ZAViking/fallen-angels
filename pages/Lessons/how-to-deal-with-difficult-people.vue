@@ -18,9 +18,9 @@
                 <li>Insecurities are loud.</li>
             </ul>
         </ul>
-        
+
         <UDivider label="How to handle people: Shouting or Aggressive" />
-        <h2>How to handle people: Shouting or Aggressive </h2>
+        <!-- <h2>How to handle people: Shouting or Aggressive </h2> -->
         <ul>
             <li>Be the opposite of their tone.</li>
             <li>Pose questions that "NEVER"</li>
@@ -33,7 +33,8 @@
             <li>* The person that you see is not always the person you talking to.</li>
         </ul>
 
-        <h2>Phrases to help deescalate issues.</h2>
+        <UDivider label="Phrases to help deescalate issues" />
+        <!-- <h2>Phrases to help deescalate issues.</h2> -->
         <li>Everyones default response is to get defensive.</li>
         <li>Fight or flight element when they get defensive.</li>
         <li>They want words to harm you.</li>
@@ -71,7 +72,8 @@
             <li>Usually they solve the issue by themselves 5 mins later.</li>
         </ul>
 
-        <h2>Taking the world on your shoulders</h2>
+        <UDivider label="Taking the world on your shoulders" />
+        <!-- <h2>Taking the world on your shoulders</h2> -->
         <li>If you let it affect you, you are choosing to take it upon your shoulders</li>
         <li>Give people grace, give them the benefit of the doubt.</li>
         <li>"I thought you were made at me" is not giving them the benefit of the doubt.</li>
@@ -93,7 +95,8 @@
             <li>You would not be telling them that if they were not being disrespectful.</li>
         </ul>
 
-        <h2>How to handle your emotions: When someone is being disrespectful. </h2>
+        <UDivider label="How to handle your emotions: When someone is being disrespectful" />
+        <!-- <h2>How to handle your emotions: When someone is being disrespectful. </h2> -->
         <ul>
             <li>Your breath. Your body controls what you say. Let your shoulders down.</li>
             <li>When you are threatened, you need to defend yourself or react. This is why you breath.</li>
@@ -101,7 +104,8 @@
             <li>You dont win arguemments, just your credibility.</li>
         </ul>
 
-        <h2>How to handle people: Gaslighting </h2>
+        <UDivider label="How to handle people: Gaslighting" />
+        <!-- <h2>How to handle people: Gaslighting </h2> -->
         <ul>
             <li>"I see things different." / "I remember things differently."</li>
             <li>Its okay to say "I dont have an opinion"</li>
@@ -109,7 +113,8 @@
             <li>*Dont give them an enemy.</li>
         </ul>
 
-        <h2>How to handle people: Narcissist  </h2>
+        <UDivider label="How to handle people: Narcissist" />
+        <!-- <h2>How to handle people: Narcissist</h2> -->
         <ul>
             <li>A game of phraise or prevoke.</li>
             <li>They need a sense of control.</li>
@@ -120,7 +125,8 @@
             <li>Dont give them 100 words of text, they will take 1 word and twist it.</li>
         </ul>
 
-        <h2>How to handle people: In a bad mood  </h2>
+        <UDivider label="How to handle people: In a bad mood" />
+        <!-- <h2>How to handle people: In a bad mood  </h2> -->
         <ul>
             <li>If they want to talk, you need to be a safe space.</li>
             <li>"Did you mean to sound rude."</li>
@@ -129,7 +135,8 @@
             <li>"Did you mean for that to sound short."</li>
         </ul>
 
-        <h2>How to handle people: Assuming good</h2>
+        <UDivider label="How to handle people: Assuming good" />
+        <!-- <h2>How to handle people: Assuming good</h2> -->
         <ul>
             <li>Goes to who you are, most people are good.</li>
             <li>There are people in this world that are hurting.</li>
@@ -140,6 +147,7 @@
             <li>Just be curious enough and patient enough to find out.</li>
         </ul>
 
+        <UDivider label="" />
         <ul>
             <li>When you in a difficult conversation, say what you say with control. (Breath, Body)</li>
             <li>Use an assertive voice</li>
