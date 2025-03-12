@@ -25,6 +25,10 @@
     margin: 0;
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+
   /* Global Settings */
   /* Wrapper for the pop-out effect */
   .popout-container {
