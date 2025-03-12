@@ -31,7 +31,7 @@ export default {
     data() {
         return {
             malemind: [
-                "Test 1"
+                "Men are not insecure, but territorial.",
             ],
             respectfulman: [
                 "Men know how other men are going to be looking at you, or be predators or going to persue you, his right for saying that. Does not mean his insecure. This is a man nature and its ok, and you should have boundaries with yourself knowing that you are exposing yourself.",

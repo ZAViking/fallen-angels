@@ -55,7 +55,6 @@
           label="The male mind"
           :ui="{ label: 'text-gray-500 dark:text-gray-400' }"
           />
-          <NuxtLink to="/Lessons/quotes">The Respectful Man</NuxtLink><br />
           <NuxtLink to="/Lessons/male-mind">The Male Mind</NuxtLink><br />
           
           <UDivider
