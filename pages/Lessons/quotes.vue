@@ -24,6 +24,9 @@ export default {
                 "Loving you felt like destiny, losing you felt like justice for the sins I don't remember committing.",
                 "Missing you feels like a punishment with no crime, a sentence with no end. But maybe, just maybe, forgetting you will feel like freedom I never knew I needed.",
                 "I found my forever, but fate had other plans, turns out I owed the universe a debt I couldn't ignore.",
+                "If you hold onto the past, you stay in the past",
+                "You never trutly move on, you never truely get over the hurtful relationships, dont make that stop you from loving someone new",
+                "IF you can dream with a damaged mind and love with a broken heart, you deserve this world and all of its treasures",
             ]
         };
     }

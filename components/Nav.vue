@@ -41,6 +41,13 @@
           <NuxtLink to="/About">About</NuxtLink><br />
 
           <UDivider
+            label="Success"
+            :ui="{ label: 'text-gray-500 dark:text-gray-400' }"
+          />
+          <NuxtLink to="/Lessons/6-demands-for-success">6 Demands for Success</NuxtLink><br />
+          <NuxtLink to="/Lessons/laws-in-life">Laws in Life</NuxtLink><br />
+
+          <UDivider
             label="Lessons"
             :ui="{ label: 'text-gray-500 dark:text-gray-400' }"
           />
