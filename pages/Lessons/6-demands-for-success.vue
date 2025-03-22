@@ -2,7 +2,7 @@
     <div class="popout-container">
         <div class="popout-content">
             <Nav />
-            <h1>Quotes:</h1>
+            <h1>6 Demands for Success:</h1>
             <div class="quotes">
                 <ul>
                     <li v-for="(quote, index) in quotes" :key="index">

@@ -26,7 +26,7 @@ export default {
                 "I found my forever, but fate had other plans, turns out I owed the universe a debt I couldn't ignore.",
                 "If you hold onto the past, you stay in the past",
                 "You never trutly move on, you never truely get over the hurtful relationships, dont make that stop you from loving someone new",
-                "IF you can dream with a damaged mind and love with a broken heart, you deserve this world and all of its treasures",
+                "If you can dream with a damaged mind and love with a broken heart, you deserve this world and all of its treasures",
             ]
         };
     }
