@@ -9,10 +9,10 @@
                 <li>Its a window into another persons struggle.</li>
                 <li>The less you say, the more powerful you are.</li>
                 <li>The more confident you say something, the more confident you look like.</li>
-                <li>Someone that wants attention.</li>
+                <li>Someone that is diffucult or rude, just wants attention or to be heard.</li>
                 <li>Just another human being that doesnt know how to be understood.</li>
-                <li>If you think they difficult, then it is difficult.</li>
-                <li>Listen to the end of the sentence.</li>
+                <li>If you think a person is going to be difficult, then it will be a difficult conversation.</li>
+                <li>You should listen to the end of the sentence. Do not listem to just reply.</li>
                 <li>Not everyone is worth getting out your chair for. You dont have to argue with people.</li>
                 <li>The person that knows the least that will always say the most.</li>
                 <ul>
